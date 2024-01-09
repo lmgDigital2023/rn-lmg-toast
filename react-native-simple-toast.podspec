@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm}"
 
-  s.dependency "LMG", "~> 4.1.0"
+  s.dependency "LMGToast"
 
   if ENV['RCT_NEW_ARCH_ENABLED'] == '1' then
     install_modules_dependencies(s)
